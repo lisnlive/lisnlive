@@ -215,7 +215,10 @@ html{
 @media (max-width: 479px) {
 
 	.widget{
-		width:350px;
+		width:90%;
+		left: 50%;
+		transform: translate(-50%, 0);
+		-webkit-transform: translate(-50%, 0);
 	}
 
 }
