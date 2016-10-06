@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="31px" height="37px" viewBox="0 0 31 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M230.710893,85.4067159 C232.553834,86.6340907 232.558066,88.62124 230.710893,89.8514333 L216.899287,99.049783 C215.056346,100.277158 213.562347,99.4818222 213.562347,97.2752815 L213.562347,77.9828678 C213.562347,75.7754628 215.052114,74.9781729 216.899287,76.2083662 L230.710893,85.4067159 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.219414328   0 0 0 0 0.219414328   0 0 0 0 0.219414328  0 0 0 0.624320652 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-1-Copy-7" transform="translate(-441.000000, -244.000000)">
+            <g id="card" transform="translate(358.000000, 124.000000)">
+                <g id="Group-3-+-STAT1@2X-+-Lisn-+-Music-Conversations-Mask" transform="translate(-124.000000, 51.000000)">
+                    <g id="Triangle-1">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
