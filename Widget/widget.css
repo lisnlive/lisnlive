@@ -215,7 +215,7 @@ html{
 @media (max-width: 479px) {
 
 	.widget{
-		width:90%;
-	}
+		width:300px;
+		}
 
 }
