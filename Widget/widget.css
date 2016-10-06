@@ -211,3 +211,11 @@ html{
 	background: #f1f2f5;
 	padding: 0 20px;
 }
+
+@media (max-width: 479px) {
+
+	.widget{
+		width:350px;
+	}
+
+}
