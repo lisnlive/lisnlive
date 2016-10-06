@@ -215,7 +215,12 @@ html{
 @media (max-width: 479px) {
 
 	.widget{
-		width:300px;
+		width:320px;
 		}
-
+.numberOfTracks .downloadLink{
+	display: none;
+}
+.artistName{
+	top:-18px;
+}
 }
