@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI Effects - Effect demo</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="css/lisn.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+    #button { padding: .5em 1em; text-decoration: none; }
+  </style>
+  <script>
+  $(function() {
+
+    $( ".block:first" ).animate({
+      top: 100
+    }, {
+      duration: 1000,
+      step: function( now, fx ){
+        $( ".msg:gt(0)" ).css( "left", now );
+      }
+    });
+  }
+    // set effect from select menu value
+    if (a<=6) {
+    setInterval(function() { runEffect();  a=a+1;  return false;  },3000);
+  }
+  else {
+    clearInterval();
+  };
+};          );
+  </script>
+</head>
+<body>
+
+  
+    <div style="width:347px;margin-left:60px;height:188px;">
+
+    <div class="message ui-widget-content ui-corner-all"  id="msg1">
+      <div class="test">This one is super old though</div>
+      <div class="arrow1"></div><div class="arrow2"></div>
+    </div>
+    <div class="message ui-widget-content ui-corner-all"  id="msg2">
+
+      <div class="testl" >Killing it J! Straight FYAAH</div>
+      <div class="arrow1l"></div><div class="arrow2l"></div>
+
+
+     </div>
+    <div class="message ui-widget-content ui-corner-all"  id="msg3" >
+
+       <div class="test">Oh my god! I love this fucking track. Remember Coachella?</div>
+        <div class="arrow1"></div><div class="arrow2"></div>
+     </div>
+    <div class="message ui-widget-content ui-corner-all"  id="msg4" >
+      <div class="testl">Ya that was so much fun</div>
+      <div class="arrow1l"></div><div class="arrow2l"></div>
+    </div>
+    <div class="message ui-widget-content ui-corner-all"  id="msg5" >
+      <div class="test">How about this track though</div>
+      <div class="arrow1"></div><div class="arrow2"></div>
+    </div>
+    <div class="message ui-widget-content ui-corner-all"  id="msg6" >
+
+      <div class="testl" >Nice. I've heard a couple of his tracks though</div>
+      <div class="arrow1l"></div><div class="arrow2l"></div>
+    </div>
+    <div class="message ui-widget-content ui-corner-all"  id="msg7">
+
+      <div class="test">He's is playing at Warfield in a weeks right?</div>
+      <div class="arrow1"></div><div class="arrow2"></div>
+    </div>
+    <div class="message ui-widget-content ui-corner-all"  id="msg8">
+
+    <div class="testl" >Wanna go check it out</div>
+    <div class="arrow1l"></div><div class="arrow2l"></div>
+    </div>
+    <div class="message ui-widget-content ui-corner-all"  id="msg9" >
+      <div class="test">Let's do it</div>
+      <div class="arrow1"></div><div class="arrow2"></div>
+    </div>
+  </div>
+
+
+
+</body>
+</html>

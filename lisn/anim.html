@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>animate demo</title>
+  <style>
+.block1 {
+    position: absolute;
+    top:100px;
+    left: 1000px;
+    width: 170px;
+    height: 342px;
+    margin: 5px;
+  }
+.block1 img {
+  position:absolute;
+ left:0;
+ -webkit-transition: opacity 0.3s ease-in-out;
+ -moz-transition: opacity 0.3s ease-in-out;
+ -o-transition: opacity 0.3s ease-in-out;
+ transition: opacity 0.3s ease-in-out;
+
+}
+
+#img2{
+  opacity:0;
+}
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+
+<button id="left">&laquo;</button>
+<button id="right">&raquo;</button>
+<div class="block1">
+
+<img id="img2" src="images/guy_red.png"><img id="img1" src="images/yo.png">
+</div>
+
+
+<script>
+d=1;
+$( "#right" ).click(function() {
+  $( "#img1" ).css("opacity", "0");
+  $( "#img2" ).css("opacity", "1");
+});
+d+=1;
+console.log(d);
+
+$( "#left" ).click(function(){
+  $( "#img1" ).css("opacity", "1");
+  $( "#img2" ).css("opacity", "0");
+});
+</script>
+
+</body>
+</html>
