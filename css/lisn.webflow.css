@@ -229,7 +229,7 @@
 }
 
 .stream {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .radio_content {
@@ -482,8 +482,9 @@
     padding-bottom: 20px;
   }
   .stream {
-    width: 200px;
+    width: 150px;
     margin-top: 40px;
+    margin-bottom: 10px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
