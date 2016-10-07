@@ -33,19 +33,7 @@
       </div>
       <div class="sign_up">
         <div class="areyou">ARE YOU A MUSIC BLOGGER, CURATOR OR JOURNALIST?</div>
-        <div class="form_wrapper w-form">
-          <form class="form_div" data-name="Email Form" id="email-form" name="email-form">
-            <input class="form w-input" data-name="Name" id="name" maxlength="256" name="name" placeholder="What&#39;s your email?" type="text">
-            <div class="flex">
-              <input class="form_button w-button" data-wait="Please wait..." type="submit" value="I WANT IN">
-            </div>
-          </form>
-          <div class="success_div w-form-done">
-            <div>Thanks! We'll be in touch.</div>
-          </div>
-          <div class="w-form-fail">
-            <div>Oops! Something went wrong while submitting the form</div>
-          </div>
+        <div class="button flex"><a class="form_button top w-button" href="#getstarted" id="form">get started</a>
         </div>
       </div>
     </div>
@@ -167,14 +155,22 @@
       </div>
     </div>
   </div>
-  <div class="footer">
+  <div class="footer" id="getstarted">
     <div class="fottor w-container">
       <div class="footer_content">
-        <div class="center left_white_header">Now inviting music curators &amp; journalists</div>
+        <div class="center left_white_header">Now inviting curators to our closed beta</div>
         <div class="footer form_wrapper w-clearfix w-form">
           <form class="footer form_div" data-name="Email Form" id="email-form" name="email-form">
-            <input class="foot form w-input" data-name="Name 2" id="name-2" maxlength="256" name="name-2" placeholder="What&#39;s your email?" type="text">
-            <div class="flex">
+            <input class="foot form w-input" data-name="name" id="name-4" maxlength="256" name="name" placeholder="Name" required="required" type="text">
+            <input class="foot form w-input" data-name="email" id="email" maxlength="256" name="email" placeholder="What&#39;s your email?" required="required" type="email">
+            <input class="foot form w-input" data-name="website" id="website" maxlength="256" name="website" placeholder="Your website&#39;s URL" type="text">
+            <select class="drop form w-select" data-name="profile" id="profile" name="profile" required="required">
+              <option value="curator">I'm a music curator or journalist</option>
+              <option value="musician">I'm a musician</option>
+              <option value="business">I'm in the music business</option>
+              <option value="enthu">I'm a music enthusiast</option>
+            </select>
+            <div class="button flex">
               <input class="form_button w-button" data-wait="Please wait..." type="submit" value="I WANT IN">
             </div>
           </form>

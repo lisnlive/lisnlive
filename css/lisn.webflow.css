@@ -81,7 +81,20 @@
 }
 
 .form.foot {
+  margin-bottom: 15px;
   box-shadow: none;
+}
+
+.form.drop {
+  display: block;
+  margin-bottom: 15px;
+  padding-right: 20%;
+  padding-left: 20%;
+  box-shadow: none;
+  direction: ltr;
+  color: #000;
+  text-align: left;
+  text-indent: 15px;
 }
 
 .form_wrapper.footer {
@@ -100,13 +113,14 @@
 }
 
 .form_button {
-  position: relative;
+  position: static;
   top: -63px;
-  height: 45px;
-  margin-right: 7px;
+  width: 100%;
+  height: 60px;
+  margin-right: 0px;
   padding-right: 30px;
   padding-left: 30px;
-  float: right;
+  float: none;
   border-radius: 2px;
   background-color: #ff7070;
   -webkit-transition: background-color 200ms ease;
@@ -121,6 +135,12 @@
 .form_button:hover {
   background-color: #444750;
   color: #fff;
+}
+
+.form_button.top {
+  width: 40%;
+  line-height: 40px;
+  text-align: center;
 }
 
 .success_div {
@@ -321,6 +341,19 @@
   float: left;
 }
 
+.flex.button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 0px;
+  margin-left: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
 .tops {
   margin-bottom: 50px;
 }
@@ -387,6 +420,14 @@
     border-color: #ff6167;
     text-align: center;
   }
+  .form.drop {
+    margin-bottom: 0px;
+    padding-right: 0%;
+    padding-left: 0%;
+    direction: ltr;
+    text-align: center;
+    text-indent: 10%;
+  }
   .form_div {
     margin-right: 5%;
     margin-left: 5%;
@@ -417,9 +458,16 @@
     flex: 1;
     border-radius: 4px;
   }
+  .form_button.top {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
   .success_div {
     font-size: 21px;
     line-height: 21px;
+  }
+  .success_div.footer {
+    background-color: #000;
   }
   .invite_only {
     margin-top: 80px;
@@ -585,6 +633,11 @@
   }
   .flex.footsy {
     float: none;
+  }
+  .flex.button {
+    width: 100%;
+    margin-right: 0%;
+    margin-left: 0%;
   }
   .tops {
     margin-bottom: 20px;
