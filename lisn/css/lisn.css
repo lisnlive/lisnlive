@@ -117,7 +117,7 @@
 }
 
 #lisn {
-     background:#6967CE;
+     background:#444750;
      font-family:'solomon_normalregular';
      overflow-x: hidden;
      transition: background 0.6s ease;
@@ -285,10 +285,10 @@ button:focus {
       padding:0 auto;
       margin:20px auto;
       background: #fff; /* For browsers that do not support gradients */
-      background: -webkit-linear-gradient(transparent,#6967CE); /* For Safari 5.1 to 6.0 */
-      background: -o-linear-gradient(transparent,#6967CE); /* For Opera 11.1 to 12.0 */
-      background: -moz-linear-gradient(transparent,#6967CE); /* For Firefox 3.6 to 15 */
-      background: linear-gradient(transparent,#6967CE); /* Standard syntax (must be last) */
+      background: -webkit-linear-gradient(transparent,#444750); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(transparent,#444750); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(transparent,#444750); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(transparent,#444750); /* Standard syntax (must be last) */
       z-index:100000;
       transition: background 0.6s ease;
 
