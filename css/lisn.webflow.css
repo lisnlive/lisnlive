@@ -482,10 +482,20 @@
     padding-bottom: 20px;
   }
   .stream {
-    width: 90%;
+    width: 200px;
     margin-top: 40px;
-    margin-right: 5%;
-    margin-left: 5%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: baseline;
+    -webkit-align-items: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
   }
   .radio_content {
     margin-top: 50px;
