@@ -375,7 +375,8 @@
   }
 
   frame{
-    margin-left: -360px;
+    position: absolute;
+    left: -30%;
   }
 
   .usp {
