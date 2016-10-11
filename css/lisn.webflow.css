@@ -373,6 +373,11 @@
     display: block;
     padding-top: 30px;
   }
+
+  frame{
+    margin-left: -60px;
+  }
+  
   .usp {
     margin-top: 30px;
   }
